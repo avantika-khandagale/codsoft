@@ -1,0 +1,358 @@
+body {
+  background-image: url(img/photo-1535254973040-607b474cb50d.webp);
+  background-size: cover;
+  height: 190vh; 
+  width: 200vh;
+  background-position: center;
+   margin: 0;
+  padding: 0;
+  position: sticky;
+  background-repeat: no-repeat;
+} 
+ .form{ 
+   border: 1px solid black;
+   height: 350px;
+   width: 400px;
+   margin-top: 150px;
+   background-color: rgba(18, 16, 16, 0.7);
+   text-align:center;
+}
+.col{
+  height: 30px;
+  width: 200px;
+  padding: 6px;
+  margin: 10px;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  font-style: oblique;
+  font-weight: bold;
+  background-color: rgba(146, 57, 57, 0.5);
+  box-shadow: rgba(0,0,0,0.7);
+}
+.btn{
+  height: 30px;
+  background-color: rgb(95, 93, 88);
+  color:  rgb(36, 158, 109);
+  border-radius: 15px;
+  width: 100px;
+  background-color: rgba(0,0,0,0.5);
+  outline: none;
+  font-weight: bold;
+  height: 35px;
+  border: none;
+}
+h1{
+  color: rgb(36, 158, 109);
+  text-decoration: underline;
+}
+.form i{
+  color:rgb(152, 148, 135); ;
+}
+.left{
+
+   display: inline-block;
+   position:absolute;
+   left: 10px;
+}
+.mid{
+     border: 1px solid rgb(199, 125, 125); 
+    display: block;
+    width: 63%;
+     margin: 12px auto ;
+     background-color: rgba(199, 111, 111, 0.7);
+     box-shadow: rgba(199,111,111,0.7);
+     outline: none;
+     position: sticky;
+}
+.right{
+  border: 2px solid green;
+  display: inline-block;
+  position: absolute;
+  left: 90%;
+  top: 0px;
+}
+.left img{
+  height: 110px;
+ width: 150px;
+}
+.left div{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  background-color: rgba(214, 143, 201, 0.9);
+  color: rgb(161, 224, 199);
+  font-family: cursive;
+}
+.mid{
+  position: sticky;
+  width: 800px;
+}
+.mid li{
+  display: inline-block; 
+}
+.mid li a{
+  color: aliceblue;
+  text-decoration: none;
+  padding: 25px;
+  font-size: large;
+  font-weight: bold;
+  font-style: oblique;
+}
+.mid i{
+  color: aliceblue;
+  font-size: medium;
+}
+.icon{
+  position: absolute;
+  left: 23%;
+  margin-top: 1.8%;
+  justify-content: center;
+  color: rgb(152, 148, 135);
+}
+.icon1{
+  position: absolute;
+  left: 6%;
+  justify-content: center;
+}
+.para{
+  /* background: url(img/chocolate-cake-with-dried-fruit_144627-9027.webp); */
+  position: absolute;
+  left: 40%;
+  bottom:51% ;
+  border: 5px solid white;
+  height: 400px;
+  width: 700px;
+  border-radius: 150px;
+  /* background-color: rgba(68, 175, 185, 0.5); */
+  background-color: rgba(146, 57, 57, 0.5)
+}
+.img img{
+  position: absolute;
+   height: 300px;
+   left: 65%;
+   top: 40%;
+}
+.para h1{
+  position: absolute;
+  text-decoration: none;
+  color: rgba(67, 103, 8, 0.836);
+  left: 10%;
+  top: 32%;
+  font-family: 'Croissant One', cursive;
+  font-size: 40px;
+}
+.para p{
+  position: absolute;
+  left: 10%;
+  top: 20%;
+  font-family: 'Dancing Script', cursive;
+  font-size: 16px;
+  font-weight: bold;
+}
+.content{
+  position: relative;
+  background-color: rgba(198, 145, 163, 0.913);
+  border: 5px solid rgba(199, 67, 111, 0.913);;
+  height: 17%;
+  width: 80%;
+  left: 5%;
+  top: 10%;
+}
+.content img{ 
+  position: relative;
+  height: 90%;
+  width: 24%;
+  left: 1%;
+  top: 5%;
+  border-radius: 100%;
+}
+.info{
+  position: relative;
+  border: 5px solid rgb(199, 83, 83);
+  background-color:rgba(182, 91, 91, 0.7);
+  height: 8%;
+  width: 80%;
+  left: 5%;
+  top: 10%;
+}
+.info1{
+  position: absolute;
+  height: 90%;
+  width: 20%;
+  left: 2%;
+}
+.info2{
+  position: absolute;
+  height: 90%;
+  width: 20%;
+  left: 27%;
+}
+.info3{
+  position: relative;
+  height: 90%;
+  width: 20%;
+  left: 52%;
+}
+.info4{
+  position: absolute;
+  height: 90%;
+  width: 20%;
+  left: 77%;
+  top: 0.1%;
+}
+.info1 h3{
+ position: absolute;
+ color: rgb(24, 73, 74);;
+   margin: 4%;
+  left: 17%;
+font-weight: bolder;
+} 
+.info2 h3{
+  position: absolute;
+    margin: 4%;
+   left: 5%;
+   font-weight: bolder;
+   color:rgb(24, 73, 74);
+ } 
+ .info3 h3{
+  position: absolute;
+ color: rgb(24, 73, 74);
+    margin: 4%;
+   left: 15%;
+   font-weight: bolder;
+ } 
+ .info4 h3{
+  position: absolute;
+    margin: 4%;
+   color: rgb(24, 73, 74);
+   left: 15%;
+   font-weight: bolder;
+ } 
+ .info1  p{
+  position: absolute;
+  left: 37%;
+  top: 20%;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(157, 19, 109);
+ }
+ .info2  p{
+  position: absolute;
+  left: 37%;
+  top: 20%;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(157, 19, 109);
+ }
+ .info3  p{
+  position: absolute;
+  left: 37%;
+  top: 20%;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(157, 19, 109);
+ }
+ .info4  p{
+  position: absolute;
+  left: 37%;
+  top: 20%;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(157, 19, 109);
+ }
+ .quote img {
+  position: absolute;
+  height: 150%;
+  width: 30%;
+  left: 96%;
+  bottom: 100%;
+ }
+ .btn1{
+  position: absolute;
+  height: 30px;
+  color: black;
+  border-radius: 15px;
+  width: 15%;
+  outline: none;
+  font-weight: bold;
+  height: 35px;
+  border: none;
+  left: 104%;
+  height: 35%;
+ top: 20%;
+ background-color: rgb(252, 252, 251);
+ text-decoration: underline;
+}
+ .contact{
+  position: relative;
+  height: 300%;
+  width: 131%;
+  right: 6.9%;
+  background-color: rgba(0,0,0,0.7);
+ top: 40%;
+ }
+.contact h5{
+  position: relative;
+  color: aliceblue;
+  font-size: large;
+  left: 2%;
+  top: 10%;
+}
+.contact p{
+  font-size: 80%;
+  top: 80%;
+}
+ .location{
+  position: absolute;
+  left: 25%;
+  top: 155%;
+ }
+ .i {
+  position: absolute;
+  left: 60%;
+  top: 170%;
+  color: aliceblue;
+  height: 20%;
+  text-align: center;
+ }
+ .i i{
+  position: relative;
+  margin: 2%;
+  font-size: 1.5em;
+  height: 130%;
+  padding: 4%;
+ }
+#i1{
+  background-color: rgb(255, 48, 108);
+}
+#i2{
+  background-color: rgb(47, 205, 47);
+}
+#i3{
+  background-color: rgb(72, 72, 210);
+}
+.class{
+  position: relative;
+  position: absolute;
+  left:65%;
+  top: 370%;
+  padding: 10;
+
+}
+.class i{
+background-color: rgb(38, 109, 171);
+font-size: 1.65em;
+color: aliceblue;
+}
+.class p{
+  color: aliceblue;
+}
+.line p{
+  position: absolute;
+  color: brown;
+  font-weight: bolder;
+}
+.i p1{
+  font-weight: 900;
+}
